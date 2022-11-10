@@ -1,0 +1,43 @@
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+body {
+    font-size: 0;
+}
+.friendly{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 15px;
+    vertical-align: top;
+    height: 100vh;
+}
+.friendly:nth-child(2) div:nth-child(1){
+    padding: 100px 0;
+    background-color: grey;
+}
+.box-parent {
+    font-size: 0;
+    padding: 84px 0;
+}
+.box {
+    /*background-color: aqua;*/
+    display: inline-block;
+    width: 33.33%;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.inside-box-span {
+    border: 1px solid black;
+    text-align: center;
+    width: fit-content;
+}
+.inside-box-div {
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px dotted black;
+}

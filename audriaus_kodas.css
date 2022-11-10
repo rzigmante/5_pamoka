@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 50px;
+  }
+  .kaire {
+    width: 50%;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .kaire img {
+    width: 25%;
+    margin: 10px;
+  }
+  .kaire h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .desine {
+    width: 49%;
+    float: right;
+    border: 2px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .desine img {
+    width: 100%;
+  }
+  .kaire h1,
+  .kaire p,
+  .kaire div:nth-child(2) {
+    margin: 20px;
+  }
+  .desine div:nth-child(2) {
+    padding: 20px;
+  }
+  .desine div h3,
+  .desine div p {
+    padding-bottom: 20px;
+  }
+  .kaire div {
+    margin-left: 10px;
+  }
+  
